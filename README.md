@@ -35,6 +35,7 @@ Probado con `TOPE='$0.02' npm run agente`: saldo inicial `0.0450000 USDC`, respu
 ## Hashes de prueba
 
 - Pago de 0.005 USDC del agente a la API: [ver transacción en Stellar Expert](https://stellar.expert/explorer/testnet/tx/d1e3b2eeefdeffd45661ac88f6300499547dea9cec17aca2b3bb31421a71ac51).
+- Pago de 0.01 USDC del agente a tu cuenta: [ver transacción en Stellar Expert](https://stellar.expert/explorer/testnet/tx/91de506313607e92d2ce79acd9fe0813772bb2cabd2e4d7271f34934e2c92680).
 
 ## Equipo y partes
 
