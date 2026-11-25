@@ -9,6 +9,7 @@
     "pagar": "node --env-file=.env primer-pago.js",
     "agente-wallet": "node --env-file=.env crear-agente.js",
     "agente": "node --env-file=.env agente.js",
+    "api": "node --env-file=.env api.js",
     "test": "node --env-file-if-exists=.env --test"
   },
   "repository": {
