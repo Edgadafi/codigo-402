@@ -20,6 +20,14 @@ TOPE='$0.005' npm run agente
 
 Cada integrante puede documentar su parte en `partes/<usuario>/README.md`.
 
+## Mi agente paga solo
+
+El agente revisa su saldo USDC en Horizon antes de llamar a la API. Reintenta hasta tres veces solo la solicitud inicial sin pago; una solicitud con firma nunca se reintenta automáticamente para evitar un posible doble cobro.
+
+Probado con `TOPE='$0.02' npm run agente`: saldo inicial `0.0450000 USDC`, respuesta `200` y saldo final `0.0400000 USDC`.
+
+[Ver pago de 0.005 USDC en Stellar Expert](https://stellar.expert/explorer/testnet/tx/af8d5382ee60909e3802bc1cdcc6700f88df1ec9431ac87f3261236661db8ae9).
+
 ## Hashes de prueba
 
 - Pago de 0.005 USDC del agente a la API: [ver transacción en Stellar Expert](https://stellar.expert/explorer/testnet/tx/d1e3b2eeefdeffd45661ac88f6300499547dea9cec17aca2b3bb31421a71ac51).
