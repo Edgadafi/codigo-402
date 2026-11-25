@@ -1,6 +1,13 @@
-# codigo-402
-nirium+baf+stellarX402
+# superpagos
 
-## Mi primer pago en Stellar
-- Hash: bc6cf26cee8361f6ae1e12331302a9eb63795cea25875511ee682e9e22b45672
-- Verlo: https://stellar.expert/explorer/testnet/tx/bc6cf26cee8361f6ae1e12331302a9eb63795cea25875511ee682e9e22b45672
+compara rutas de envío de dólares a pesos m
+
+**Track:** API de pago · Código 402 · BAF México × Programa de Embajadores de Stellar · Stellar testnet (dinero de prueba)
+
+## Cómo correrlo
+
+Cada integrante explica cómo se corre su parte en `partes/<usuario>/README.md`.
+
+## Hashes de prueba
+
+Cada parte lista sus pagos de testnet, con su link a Stellar Expert, en su README.
