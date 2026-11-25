@@ -28,6 +28,10 @@ Probado con `TOPE='$0.02' npm run agente`: saldo inicial `0.0450000 USDC`, respu
 
 [Ver pago de 0.005 USDC en Stellar Expert](https://stellar.expert/explorer/testnet/tx/af8d5382ee60909e3802bc1cdcc6700f88df1ec9431ac87f3261236661db8ae9).
 
+## Mi verificador
+- Pago que verifiqué con RPC: af8d5382ee60909e3802bc1cdcc6700f88df1ec9431ac87f3261236661db8ae9
+- Verlo: https://stellar.expert/explorer/testnet/tx/af8d5382ee60909e3802bc1cdcc6700f88df1ec9431ac87f3261236661db8ae9
+
 ## Hashes de prueba
 
 - Pago de 0.005 USDC del agente a la API: [ver transacción en Stellar Expert](https://stellar.expert/explorer/testnet/tx/d1e3b2eeefdeffd45661ac88f6300499547dea9cec17aca2b3bb31421a71ac51).
